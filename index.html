@@ -3,93 +3,71 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <title>Bruna Teles</title>
+    <link rel="icon" type="image/png" href="assets/img/logo.png"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Portfolio</title>
 </head>
-<body style="background-color: #cccccc;">
 
+<body>
 
-<header style="background-color: #441f88; color:#f9f9f9;">
-     Universe 
-    <nav> <ul>
-<li> <a href="#" style="color:#f9f9f9;">Home</style></a></li>
-<li> <a href="#" style="color:#f9f9f9;">Sobre</a></li> 
-<li> <a href="#" style="color:#f9f9f9;">Contate me </a></li> 
-</ul> </nav>
-</header>
-
-
-<section id="home">
-    <article id="home-texto">
-        <h3>Bem vindo a um Novo Universo</h3>
-        <h1>Diferentes mundos para diferentes pessoas</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error 
-            <br>veniam in voluptatem magni quisquam
-        </p>
-    </article>
-
-        <article id="home-imagem">
-   <figure> <img src="assets/img/astronauta.svg" alt="imagem de capacete de astronauta" style=" width: 150px;height:170px"> </figure>
-</article>
-</section>
-
-<section id="sobre-texto">
-    <h2>Quem sou eu? </h2>
-<p> 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam odit voluptates 
- <br>   incidunt inventore rem error harum blanditiis accusamus vitae, minus fugit 
-   <br> consequatur? Dolorum maiores magni deleniti modi sit laudantium totam! </p>
-
-
-</section>
-
-<section>
-    <article id="redes-sociais-texto">
-        <h2>Me contate</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Commodi similique esse fuga necessitatibus,
-            iusto alias eius perferendis qui iste minima
-            blanditiis repellendus distinctio dolor obcaecati
-            aliquid quod quidem incidunt quibusdam!</p>
-
-        <div id="redes-sociais-icone">
-            <a href="https://www.linkedin.com/in/brunateles/" target="_blank">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" style="width:50px;height:50px;" />
-        
-            <a href="https://github.com/bru-tls" target="_blank">
-                <img src="assets/img/github.svg" alt="github" style="width:50px;height:50px;" />
-
-                <a href="https://instagram.com/bru_tls" target="_blank">
-                    <img src="assets/img/instagram.svg" alt="instagram" style="width:50px;height:50px;" />
-            </a>
-
+ 
+    <nav>
+        <div class="logo">
+    <img class="icone" src="assets/img/logo.png"alt="Logo">
+            <span class="titulo">Bruna Teles de Andrade</span>
         </div>
 
-<section id="contato">
+        <ul>
+            <li><a href="#perfil">Sobre mim</a></li>
+            <li><a href="#video">Pitch pessoal</a></li>
+            <li><a href="https://www.linkedin.com/in/brunateles/" target="_blank">Fale comigo</a></li>
+</ul> </nav>
 
-    <form>
-        <label for="Nome"> Nome:</label>
-       <input type="text" id="nome">
-       <br>
-       <label for="E-mail"> E-mail:</label>
-       <input type="email" id="email">
-       <br>
-       <label for="Assunto"> Assunto:</label>
-       <input type="text" id="assunto">
-       <br>
-       <label for="Mensagem"> Mensagem:</label>
-    <textarea rows="4" cols="40"></textarea>
-    
-   <button>Enviar</button>
-   </form></section> </article>
-</section>
+<main>
+    <h1 id="perfil">Sobre mim:</h1>
+    <section id="sobre">
+        <div class="texto_sobre">
+            <p>Sou mãe da Bárbara de 8 anos, moro com ela e meu marido em um bairro humilde da zona norte de São Paulo e batalhamos juntos para dar a ela, condições melhores que ja tivemos um dia 
+                e meu maior desejo pessoal é poder proporcionar a ela uma infancia feliz e qualidade de vida,
+                 meus pais nunca desistiram do sonho que a filha deles tivesse uma profissão e não somente um emprego, 
+                então estou me dedicando para fazer desse sonho uma realidade, por isso estou em transição de carreira aos 28 anos!
+</p>
+            <p>Quando completei 16 anos comecei a trabalhar em call center como atendente de telemarketing para conseguir minha independencia e ajudar em casa. Durante esses 12 anos de experiencia garanti absorver o melhor dessa profissão tão desafiadora e foquei no meu desenvolvimento pessoal!
+                Eu ganhei a oportunidade de ser resiliente, conquistar uma comunicação assertiva, aprendi a trabalhar em equipe para bater metas, ser produtiva e assertiva para resolver problemas e da persistir para vender, cobrar ou reter os clientes, apesar de ser muito grata por essas experiencias, quem trabalha ou já trabalhou com atendimento ao publico entende que é um baita desafio então no ano 2022 coloquei como meta de ano novo que a curto prazo não trabalharia mais de telemarketing e iniciei a faculdade na area de T.I.  </p>
+            <p>E em Junho de 2024 conclui a graduação de Análise e desenvolvimento de sistemas pela FAM e também o bootCamp full stack na Generation Brasil onde aprendi JavasCript na prática usando Typescript, Nest, POO, MySQL, React e Tailwind.
+Meu objetivo é ser desenvolvedora de sistemas backend e estou apenas no inicio dessa trajetoria que tenho certeza que será PROMISSORA.</p>
+        </div>
 
-<footer style="background-color: #441f88; color:#f9f9f9;">
-    Feito por Bruna Teles 
-    <p>2024</p>
+        <img class="foto" src="assets/img/foto.jpeg" alt="Olá, eu sou a Bruna">
+    </section>
+     <!-- <h1 id="video">Pitch Pessoal</h1>
+   <section id="meu_video">
+               <iframe class="video" width="560" height="315" src="https://www.youtube.com/" PRECISO FAZER O VIDEO
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section> -->
+</main>
+
+<footer>
+    <div class="redes_sociais">
+        <a href="https://www.linkedin.com/in/brunateles/" target="_blank">
+            <img class="icons" src="assets/img/linkedin.svg" alt="Linkedin">
+        </a>
+        <a href="https://github.com/bru-tls" target="_blank">
+            <img class="icons" src="assets/img/github.svg" alt="Github">
+        </a>
+        <a href="https://instagram.com/bru_tls" target="_blank">
+            <img class="icons" src="assets/img/instagram.svg" alt="Instagram">
+        </a>
+    </div>
+    <p class="by"> Feito por Bruna Teles </p>
 </footer>
 
 </body>
+
 
 </html>
